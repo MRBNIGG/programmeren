@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+section {
+    display: flex;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    background: #fff;
+
+    
+}
+
+.item1  {
+    width: 200px;
+    height: 200px;
+    background: #254DE4;
+    margin: 20px;
+    color: #fff;
+}
+.item2 {
+    width: 200px;
+    height: 200px;
+    background: black;
+    margin: 20px ;
+    color: #fff;
+}
+.item3 {
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin: 20px;
+    color: #fff;
+}
+.item4 {
+    width: 200px;
+    height: 200px;
+    background: green;
+    margin: 20px;
+    color: #fff;
+}
+
