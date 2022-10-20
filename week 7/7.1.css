@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+ padding: 0;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 98%;
+  margin: auto;
+  padding: 5% 1%;
+  color:  turquoise;
+}
+header{
+  background-color: red;
+  position:sticky;
+  top: 0;
+}
+section{
+  height: 30vh;
+}
+.section1{
+  background-color: yellow;
+}
+.section2{
+  background-color: orange;
+}
+.section3{
+  background-color: green;
+}
+@media (max-width:700px){
+  .section1{
+    background-color: lightblue;
+  }
+  .section2{
+    background-color: pink;
+  }
+  .section3{
+    background-color: blue;
+  }
+  section {
+    text-align: center;
+  }
+}
+
